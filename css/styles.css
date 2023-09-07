@@ -41,14 +41,20 @@ a
 {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 56% ;
+    margin-left: 55% ;
 }
 
 .cabecera .menu a
 {
     margin-left: 7.5px;
     margin-right: 7.5px;
-    color: white;  
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    word-spacing: 5px; 
 }
 
 .container
@@ -82,14 +88,34 @@ a
 
 .columna-33
 {
-    width: 33.33%%;
+    width: 33.33%;
 }
 
 .columna-25
 {
-    width: 25%%;
+    width: 25%;
 }
 
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.centrar__texto
+{
+    text-align: center;
+}
+
+.importante
+{
+    font-style: italic;
+}
+
+.justificar__texto
+{
+    text-align: justify;
+}
 
 .banner__home
 {
