@@ -341,3 +341,179 @@ hr
     margin-left: 15px;
     color: white;
 }
+
+.footer
+{
+    padding: 50px 0;
+    background-color: #191A1F;
+}
+
+.footer__content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3
+{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+link a
+{
+    font-size: 17px;
+    color: #D4D4D4;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover
+{
+    color: #C30239;
+}
+
+@media(max-width:991px)
+{
+    .menu
+    {
+        padding: 20px;
+    }
+
+    .menu label
+    {
+        display: initial;
+    }
+
+    .menu .navbar
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #24272E;
+        display: none;
+    }
+
+    .menu .navbar ul li 
+    {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar
+    {
+       display: initial; 
+    }
+
+    .header
+    {
+        padding: 50px, 30px;
+    }
+
+    .header__txt
+    {
+        text-align: center;
+        padding: 0;
+    }
+
+    .back__video
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 200%;
+        height: auto;
+    }
+
+    .header__txt p 
+    {
+        padding: 0;
+    }
+
+    .services__container
+    {
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .about
+    {
+        padding: 30px;
+    }
+
+    hr
+    {
+        display: none;
+    }
+
+    .about__content
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about__txt
+    {
+        padding: 25px;
+    }
+
+    .testimonial
+    {
+        padding: 30px;
+    }
+
+    .testimonial__content
+    {
+        flex-direction: column;
+    }
+
+    .testimonial__1
+    {
+        margin-bottom: 25px;
+    }
+
+    .information
+    {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .f1, .f2
+    {
+        width: 100%
+    }
+
+    .information__txt
+    {
+        order: -2;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+
+    .form
+    {
+        width: 100%;
+    }
+
+    input
+    {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer
+    {
+        padding: 30px;
+    }
+
+    .footer__content
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
